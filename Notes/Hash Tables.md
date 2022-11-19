@@ -17,8 +17,8 @@ The hashmap uses the array, and maps the labels to array indexes with the hash f
 ### Language Specific Implementations
 
 - Python: the dictionary data type represents a hash table.
-- Javascript:
-- Go:
+- Javascript: Javascript objects and the Map class are both implementations of hash maps in Javascript.
+- Go: has a map implementation that is the same as a hash table.
 
 ### Implementation
 
