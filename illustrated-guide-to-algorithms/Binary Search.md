@@ -17,3 +17,6 @@ The output is either the position of the element in the list if the element is i
 Binary search cuts half of the number of inputs in half at every step or iteration of the search.
 
 If we look at the worst case scenario, binary search takes log_2(n) steps to run, whereas simple search has a worse case of n steps.
+
+Note, for this book, big O notation always represents Log base 2 logarithms, and not base 10. But the 2 is dropped because changing from base 2 to base 10 is just multiplying by a constant, and we ignore constants in big O notation.
+
