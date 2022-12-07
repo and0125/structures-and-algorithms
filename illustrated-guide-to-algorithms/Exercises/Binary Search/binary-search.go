@@ -21,6 +21,8 @@ func binary_search(inputList interface{}, searchItem interface{}) [2]int64 {
 	typedList, ok := inputList.([]int64)
 	if ok {
 		/* code for binary search for a int64 list */
+		
+
 		return [2]int64{0,0} 
 	} else if typedList, ok := inputList.([]string); ok{
 		/* code for binary search for a string list */
